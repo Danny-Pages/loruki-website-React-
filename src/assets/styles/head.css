@@ -1,0 +1,15 @@
+.head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+/* Tablets and under */
+@media (max-width: 768px) {
+  .head {
+    text-align: center;
+  }
+
+  .head img {
+    justify-self: center;
+  }
+}

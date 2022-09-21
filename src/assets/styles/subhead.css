@@ -1,0 +1,15 @@
+.features-sub-head img {
+  width: 300px;
+  justify-self: flex-end;
+}
+
+/* Tablets and under */
+@media (max-width: 768px) {
+  .features-sub-head {
+    text-align: center;
+  }
+
+  .features-sub-head img {
+    justify-self: center;
+  }
+}
